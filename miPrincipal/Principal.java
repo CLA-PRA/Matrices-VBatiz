@@ -8,9 +8,9 @@ public class Principal {
         // Se cargan las matrices desde los archivos
         Matriz a = new Matriz("./miPrincipal/m1.mat");
         Matriz b = new Matriz("./miPrincipal/m2.mat");
-        // Se crean las matrices para obtener los resultados de la suma y la multiplicación
+        // Se crean las matrices para obtener los resultados de la suma y la multiplicacion
         Matriz r1 = new Matriz(a.getRenglones(), a.getColumnas()); //Dimensiones para la suma
-        Matriz r2 = new Matriz(a.getRenglones(), b.getColumnas()); //Dimensiones para la multiplicación
+        Matriz r2 = new Matriz(a.getRenglones(), b.getColumnas()); //Dimensiones para la multiplicacion
 
         System.out.println("Leyendo matriz A...");
         System.out.println("Leyendo matriz B...");
